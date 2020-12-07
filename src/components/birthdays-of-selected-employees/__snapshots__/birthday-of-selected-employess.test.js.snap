@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render component BirthdaysOfSelectedEmployees correctly 1`] = `
+<div
+  className="employees-birthday"
+>
+  <h2
+    className="employees-birthday__title title"
+  >
+    Employees birthday
+  </h2>
+  <h3>
+    February
+  </h3>
+  <ul
+    className="birthday-list"
+  >
+    <li
+      className="birthday-item"
+    >
+      Bort Alex - 23 February, 2010 year
+    </li>
+  </ul>
+  <h3>
+    March
+  </h3>
+  <ul
+    className="birthday-list"
+  >
+    <li
+      className="birthday-item"
+    >
+      Nofl Mark - 29 March, 2014 year
+    </li>
+  </ul>
+  <h3>
+    June
+  </h3>
+  <ul
+    className="birthday-list"
+  >
+    <li
+      className="birthday-item"
+    >
+      Asi Bob - 17 June, 2020 year
+    </li>
+  </ul>
+  <h3>
+    September
+  </h3>
+  <ul
+    className="birthday-list"
+  >
+    <li
+      className="birthday-item"
+    >
+      Dark Anna - 10 September, 2018 year
+    </li>
+  </ul>
+</div>
+`;

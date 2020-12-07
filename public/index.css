@@ -1,0 +1,84 @@
+#root {
+  display: flex;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden; 
+}
+
+.employee {
+  width: 70%;
+  border-right: 2px solid;
+}
+
+.users-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.users-item{
+  padding-right: 20px;
+}
+
+.users__letter {
+  text-align: center;
+}
+
+.user-item__name {
+  display: flex;
+  margin-bottom: 7px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-item__checkbox {
+  position: relative;
+  display: block;
+  margin-left: 10px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #333;
+}
+
+.user-item__input:checked + .user-item__checkbox:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 10px;
+  height: 5px;
+  border-left: 2px solid green;
+  border-bottom: 2px solid green;
+  transform: rotate(-45deg);
+}
+
+.employees-birthday {
+  padding-left: 20px;
+}
+
+.employees-birthday__empty {
+  margin: 0;
+  font-size: 20px;
+  color: grey;
+  font-style: italic;
+}
+
+.birthday-item {
+  padding-bottom: 5px;
+}
